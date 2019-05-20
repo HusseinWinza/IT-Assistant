@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DICT Support</string>
+    <string name="replay_contents">THE IMPACT OF USING ELECTRONIC SYSTEM IN TESTING THE KNOWLEDGE OF PRIMARY SCHOOL PUPILS IN STANDARD VII EXAMINATION
+Introduction:\n
+The current system of testing the understanding and knowledge of primary school pupils is using the electronic system, in form of marking an collecting answer from pupils, The students are given question paper with multiple choice questions only including the science subjects such as Mathematics, Geography, etc. In turn pupils become lazy in studying since its simple to chose one of the answer among the given alternatives and by lucky someone might attempt to pick the correct answer. Wrongly the system identify this individual as the educated student and qualifies them tho the next level of education, that is secondary school.\n
+This lead to the poor performance of secondary school students though they did pass standard seven examination with good scores.\n
+\n
+Statement of a problem:\n
+National Examination Council have imposed the use of electronic devices in marking the national examination for standard vii which in turn it lead to the imposing the multiple choice exams in every subject so as to simplifies the marking work for the machine. This system ten to affect the teaching an studying behavior of pupils. The system tend to qualifies pupils that have no qualification in real case. This brings problem in further education carrier because the passing students didn’t have the satisfied qualification to enter secondary level of education.\n
+\n
+It is proposed that rather than moving to a new technology without proper analysis or good preparation, the nation should go back to the old ways on which we had a strong and solid basement for our education system.\n
+\n\n
+Research objectives:\n
+Main objectives\n
+The main objective of this research is to identify the impacts of using the electronic system on marking the national examinations and how the use of multiple choice questions in primary school affect the intelligence and efficiency of student in school with correspondence to the performance in the national exam, Also how this System affect their education carrier in secondary school.\n
+\n
+\n
+Specific objectives\n
+To understand the notion on each student regarding on the simplicity/difficult of using this system in their studying life.\n
+To understand the impact this system impose on teacher in the process of teaching and testing the students.\n
+To know the impact of this system in the future carrier of the students in secondary school education.\n
+\n\n
+Literature reviews:\n
+In 2002 John Mc-Lain professor in Oxford university and his team did a research on the same System in United Kingdom aiming it show the relationship existing on the use of the system and the performance of student in the university. Lastly the research concluded that it was likely among 10 students who would fail the exam using the manual system, 7 of them would pass using the electronic system.\n
+Another similar research was done in 2013 by a group of student in IT class in Russia aiming at studying how the electronic system of examining the knowledge of college students would affect their future academic carrier. The research was conducted on Pyichorz University in Moscow and concluded that among 5 students who passed the exam using electronic system 2 of them would have some difficulties in their next grade.\n
+In 2010 the same research was conducted in South Africa (Daban University of Law and Social Science) aiming to test how the use of on-line test would affect the teaching practice of instructors and in turn the performance of student in the university. The research was done by Mariam Schorzburg a journalist in the Lesotho Sunday news magazine, and her colleague Zupe Tatiana.\n
+Surprisingly the research show that its is true that in the group of 10 student passing on-line test 6 of them would have enough knowledge to continue with the next grades of studying and only 4 would have passed by lucky.</string>
+    \n
+
+    <string-array name="home_more">
+        <item></item>
+        <item>Change passwords</item>
+        <item></item>
+        <item>Logout</item>
+        <item></item>
+    </string-array>
+
+</resources>

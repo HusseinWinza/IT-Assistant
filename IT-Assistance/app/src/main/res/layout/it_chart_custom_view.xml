@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+
+
+
+            <LinearLayout
+                android:background="@drawable/round_conner_receiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:background="@drawable/round_conner_receiver"
+                        android:textColor="#000"
+                        android:id="@+id/user_from"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From:"/>
+
+                    <TextView
+
+                        android:background="@drawable/round_conner_receiver"
+                        android:textColor="#fff"
+                        android:id="@+id/uer_from_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muchunguzi"/>
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:background="@drawable/round_conner_receiver"
+                    android:id="@+id/it_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="it expart jgkflfkffkhddgdgkhghdkghddkghgkdhdgkhghkdghkdghdkghdkghdkghkdghdghdghdkgkdghghhhg"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+
+                android:background="@drawable/round_conner_receiver"
+                android:textColor="#fff"
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date:"/>
+
+            <TextView
+
+                android:background="@drawable/round_conner_receiver"
+                android:textColor="#fff"
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

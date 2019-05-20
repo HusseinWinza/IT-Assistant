@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muchunguzi.dictsupport.Authentication">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT EXPERT"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingEnd="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nameIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingEnd="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="department:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/departmentIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingEnd="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Room No:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/roomIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingEnd="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Building:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/buildingIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingEnd="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="username:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/usernameIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingEnd="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/passwordIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Comfirm:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/comfirm_passIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Recover Qn:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/recover_qnIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Recover Ans:"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/recover_ansIT"
+                android:paddingStart="5dp"
+                android:background="@drawable/round_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/group_it_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/it_exp"
+                android:text="It expert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/admin"
+                android:text="Administrator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/register_btnIT"
+                android:layout_margin="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/ic_go_btn"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/close_btn_login"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintHorizontal_bias="0.816"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/close_btn_sign_upIT"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/ic_close_btn_mpya"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.105" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

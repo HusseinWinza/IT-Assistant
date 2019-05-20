@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muchunguzi.dictsupport.Chart"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0776b7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|end"
+            android:paddingEnd="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_person_white"/>
+
+            <TextView
+                android:id="@+id/it_account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Muchunguzi"
+                android:gravity="center"/>
+
+            <Spinner
+                android:popupBackground="@drawable/round_empty"
+                android:id="@+id/it_spiner_more"
+                android:layout_width="40dp"
+                android:contextClickable="true"
+                android:layout_height="40dp"
+                android:clickable="true">
+
+            </Spinner>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <ListView
+        android:id="@+id/it_chart_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
+
+</LinearLayout>

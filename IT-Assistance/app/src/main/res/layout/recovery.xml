@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recovery option"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/err_rec_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d60404"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Recover Qn:"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recover_qn_disp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Recover Ans:"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/recover_ans_disp"
+            android:paddingStart="5dp"
+            android:background="@drawable/round_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="20" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/sign_up_display"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Sign up"
+        android:clickable="true"
+        android:textColor="#435ef5"
+        android:layout_gravity="center"
+        />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recover_btn1"
+            android:layout_margin="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_go_btn"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/close_btn"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintHorizontal_bias="0.811" />
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_close_btn_mpya"
+            android:layout_marginLeft="50dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</LinearLayout>

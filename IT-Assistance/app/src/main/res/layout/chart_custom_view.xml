@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="start"
+            android:id="@+id/reply_toss"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textColor="#fff"
+            android:background="@drawable/round_corner_toss"
+            android:layout_marginBottom="-7dp"/>
+
+            <LinearLayout
+                android:background="@drawable/round_conner_receiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:background="@drawable/round_conner_receiver"
+                    android:id="@+id/it_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="gkjsadhlglhkdslglksdlkglkdlksglkhsdlkhaglkhsdalhkgdslhkglsdkghzkldglhkdsklgklhsdklhgsdskjdgfjsdkgkjsdkgjkjsdkgjsk"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="-5dp"
+                android:background="@drawable/round_conner_receiver"
+                android:textColor="#fff"
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date:"/>
+
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:background="@drawable/round_conner_receiver"
+                android:textColor="#fff"
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
